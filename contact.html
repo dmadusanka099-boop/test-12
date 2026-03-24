@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinesh Madhushanka | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/6b4b3dbb2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Dinesh<span>.</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="contact-wrapper">
+      <div class="contact-heading">
+        <h1>Contact Us</h1>
+        <p>Any question or remarks? Just write me a message!</p>
+      </div>
+
+      <div class="glass contact-box">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>madhushankamumagd@uom.lk</span>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <span>0762078082</span>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-location-dot"></i>
+            <span>Sri Lanka</span>
+          </div>
+
+          <div class="contact-socials">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-area">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="input-box">
+                <label>First Name</label>
+                <input type="text" placeholder="Dinesh" required>
+              </div>
+              <div class="input-box">
+                <label>Last Name</label>
+                <input type="text" placeholder="Madhushanka" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="madhushankamumagd@uom.lk" required>
+              </div>
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input type="text" placeholder="0762078082" required>
+              </div>
+            </div>
+
+            <div class="input-box full-width">
+              <label>Subject</label>
+              <input type="text" placeholder="Enter subject" required>
+            </div>
+
+            <div class="input-box full-width">
+              <label>Message</label>
+              <textarea rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="successMessage" class="success-msg"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
